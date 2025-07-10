@@ -1,26 +1,26 @@
 variable "child_domain_subscription_id" {
   description = "ID of the target subscription"
-  type = string
+  type        = string
 }
 
 variable "child_domain_resource_group_name" {
   description = "name of the target resource group"
-  type = string
+  type        = string
 }
 
 variable "child_domain_prefix" {
   description = "child domain prefix (<child_domain_prefix>.<parent_domain>)"
-  type = string
+  type        = string
 }
 
 variable "parent_domain_subscription_id" {
   description = "ID of the parent subscription - This is the owner of the parent domain"
-  type = string
+  type        = string
 }
 
 variable "parent_domain_resource_group_name" {
   description = "name of the pre-existing parent resource_group - This is the owner of the root domain"
-  type = string
+  type        = string
 }
 
 variable "parent_domain" {
